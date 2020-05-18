@@ -254,6 +254,9 @@ h1 {
   background-position: center;
   -webkit-transition: padding 0.5s ease-in-out;
   transition: padding 0.5s ease-in-out; }
+  @media screen and (min-width: 1680px) {
+    .promo {
+      padding: 20px calc((100vw - 1440px) / 2) 40px; } }
   @media screen and (max-width: 1024px) {
     .promo {
       padding: 20px clamp(30px, 5%, 80px) 40px; } }
@@ -635,6 +638,9 @@ main {
   padding: 0 clamp(60px, 10%, 120px);
   -webkit-transition: padding 0.5s ease-in-out;
   transition: padding 0.5s ease-in-out; }
+  @media screen and (min-width: 1680px) {
+    main {
+      padding: 0 calc((100vw - 1440px) / 2); } }
   @media screen and (max-width: 1024px) {
     main {
       padding: 0 clamp(30px, 5%, 80px); } }
