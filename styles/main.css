@@ -515,6 +515,7 @@ h1 {
 
 .employee {
   width: 19vw;
+  min-width: 200px;
   max-width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -605,10 +606,9 @@ h1 {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; } }
+              flex-direction: column; }
+    .contacts__info {
+      width: 75%; } }
   @media screen and (max-width: 500px) {
     .contacts {
       -webkit-box-orient: vertical;
