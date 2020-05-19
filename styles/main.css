@@ -342,11 +342,11 @@ h1 {
         position: absolute;
         bottom: 92px;
         left: 101vw; }
-        .promo__phone--icon {
-          position: absolute;
-          top: 39px;
-          left: 23px;
-          display: block; }
+      .promo__phone--icon {
+        position: absolute;
+        top: 39px;
+        left: 23px;
+        display: block; }
       .promo__action {
         z-index: 1;
         position: absolute;
