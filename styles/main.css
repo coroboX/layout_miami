@@ -171,6 +171,7 @@ h1 {
 
 .button {
   color: #fff;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   display: block;
@@ -222,6 +223,7 @@ h1 {
       margin-bottom: 53px; } }
 
 .input, .textarea {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   font-size: inherit;
   display: block;
   width: 100%;
